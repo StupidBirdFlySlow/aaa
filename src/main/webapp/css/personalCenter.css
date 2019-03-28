@@ -1,0 +1,389 @@
+body {
+	background-color: linen;
+	margin: 0px;
+	padding: 0px;
+}
+
+.head_top {
+	width: 100%;
+	background-color: #00BFFF;
+}
+
+.head {
+	width: 990px;
+	height: 50px;
+	background-color: #00BFFF;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.gr_info {
+	width: 600px;
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.logo_head {
+	margin: 0px;
+	padding: 0px;
+	width: 100px;
+	display: inline;
+	padding: 0px 30px;
+}
+
+.logo_head a {
+	color: white;
+	text-decoration: none;
+}
+
+.gr_info2 {
+	float: right;
+	position: relative;
+	top: -50px;
+	width: 230px;
+}
+
+.gr_info2 span {
+	color: white;
+	font-size: 16px;
+	position: relative;
+	top: -15px;
+	display: inline-block;
+	width: 100px;
+}
+
+.gr_head_img {
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	border-radius: 20px;
+}
+
+.gr_info2 a {
+	text-decoration: none;
+}
+
+.gr_center {
+	width: 990px;
+	height: 600px;
+	background-color: white;
+	margin: 0px auto;
+	zoom: 1;
+	overflow: hidden;
+}
+
+.content_left {
+	width: 200px;
+	height: 100%;
+	float: left;
+	background-color: #F8F8F8;
+}
+
+.content_right {
+	width: 790px;
+	height: 600px;
+	float: left;
+	zoom: 1;
+	overflow: hidden;
+}
+
+.person_info {
+	width: 100%;
+	height: 150px;
+	border-bottom: 2px solid #EEEEEE;
+}
+
+.person_img {
+	width: 80px;
+	height: 80px;
+	margin-left: 20px;
+	margin-top: 30px;
+	border-radius: 50px;
+	float: left;
+}
+
+.person_info_desc {
+	float: left;
+	position: relative;
+	top: 60px;
+	width: 180px;
+	height: 60px;
+}
+
+.person_info_desc .user_name {
+	color: orangered;
+	display: block;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+.degree {
+	color: #269ABC;
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+.person_operator_nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.person_operator_nav ul li {
+	padding: 10px 20px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #E3E3E3;
+}
+.person_operator_nav ul li span{
+	position: relative;
+	top: -45px;
+	left: 120px;
+	
+}
+.person_operator_nav ul li a {
+	color: #333333;
+	text-decoration: none;
+	display: block;
+	width: 300px;
+	height: 40px;
+}
+
+.titles_div {
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid #00BFFF;
+}
+
+.person_details_title {
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
+
+.person_info_details {
+	width: 100%;
+	height: 600px;
+	zoom: 1;
+	overflow: hidden;
+}
+
+.person_info_details_show {
+	width: 100%;
+	height: 500px;
+}
+
+.details_container {
+	width: 760px;
+	height: 600px;
+	margin-left: 15px;
+	clear: both;
+}
+
+.details_item {
+	width: 500px;
+	height: 50px;
+	position: relative;
+	top: 20px;
+}
+
+.details_item span {
+	color: #333333;
+	font-size: 16px;
+	position: relative;
+	top: 10px;
+	left: 50px;
+	display: inline-block;
+	width: 80px;
+}
+
+.details_item input {
+	position: relative;
+	left: 70px;
+	top: 7px;
+	width: 200px;
+	height: 30px;
+	padding-left: 20px;
+}
+
+.details_item .gender {
+	width: 15px;
+	height: 15px;
+	top: 13px;
+}
+
+.details_item .gender_nan {
+	display: inline;
+	margin-left: 30px;
+}
+
+.details_item .btn_change {
+	width: 80px;
+	padding-left: 10px;
+	background-color: #00BFFF;
+	color: white;
+	border: 1px solid #00BFFF;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.details_item .year_month_day {
+	width: 260px;
+	height: 30px;
+	position: relative;
+	left: 190px;
+	top: -15px;
+}
+
+.details_item .year_month_day select {
+	height: 20px;
+}
+
+.details_item .info_nian {
+	position: relative;
+	left: 80px;
+}
+
+.change_pwd_item {
+	width: 400px;
+	height: 50px;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+
+.change_pwd_item span {
+	display: inline-block;
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+
+.change_pwd_item input {
+	width: 200px;
+	height: 30px;
+	border: solid 1px #00BFFF;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.change_pwd_item .change_pwd_submit_btn {
+	width: 100px;
+	height: 30px;
+	background-color: #00BFFF;
+	border: 1px solid #00BFFF;
+	position: relative;
+	left: 190px;
+	top: 20px;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+}
+.my_recipes_collection_show{
+	width: 5000px;
+	height: 400px;
+}
+.caidan_collection_item{
+	width: 100%;
+	height: 120px;
+	position:relative;
+	top: 20px;
+	border: 1px solid #eee;
+	margin-top: 10px;
+}
+.caidan_collection_item .caidan_desc{
+	width: 300px;
+	height: 120px;
+	float: left;
+}
+.caidan_collection_item .caidan_desc .caidan_name{
+	color: red;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.caidan_collection_item .caidan_desc .caidan_name:hover{
+	text-decoration: underline;
+}
+.caidan_collection_item .caidan_desc p{
+	color: #ADADAD;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.caidan_collection_item .caidan_desc span{
+	display: block;
+	width: 300px;
+	height: 20px;
+	position: relative;
+	top: -10px;
+}
+.caidan_collection_item .caidan_desc .caidan_user a img{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+.caidan_collection_item .caidan_desc .caidan_user .author_name{
+	font-size: 12px;
+	color: red;
+	position: relative;
+	top: -10px;	
+}
+.caidan_collection_item .caidan_desc .caidan_user .author_name:hover{
+	text-decoration: underline;
+}
+.caidan_collection_item .caidan_cotent{
+	width: 450px;
+	height: 120px;
+	float: left;
+	margin-left: 10px;
+}
+.caidan_collection_item .caidan_cotent .caidan_recipes{
+	width: 130px;
+	height: 120px;
+	margin-left: 15px;
+	display: inline-block;
+}
+.caidan_collection_item .caidan_cotent .caidan_recipes img{
+	width: 130px;
+	height: 120px;
+}
+.caidan_collection_item .caidan_cotent .caidan_recipes .recipes_name{
+	width: 130px;
+	height: 20px;
+	padding: 0px;
+	position: relative;
+	top: -25px;
+	background-color: #000000;
+	opacity: 0.5;
+}
+.recipes_name a{
+	color: white;
+	font-size: 12px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 20px;
+	text-align: center;
+}
+.currentImg{
+	width:300px;
+	height:200px;
+	//background-color: red;
+	position: relative;;
+	top:30px;
+	left:20px;
+}
+.currentImg span{
+	font-size:14px;
+}
+.currentImg img{
+	width:100px;
+	height:120px;
+	position: relative;
+	left:120px;
+	border:solid 1px #00BFFF;
+}

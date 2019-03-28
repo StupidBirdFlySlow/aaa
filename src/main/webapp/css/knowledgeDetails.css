@@ -1,0 +1,97 @@
+.main{
+	width: 990px;
+	margin: 0px auto;
+	margin-top: 20px;
+	zoom: 1;
+}
+.main_nav{
+	width: 990px;
+	height: 50px;
+}
+.knowledge_base_info{
+	width: 662px;
+	height: 150px;
+	margin-left: 50px;
+	background-color: white;
+	border: 1px solid #EEEEEE;
+	overflow: hidden;
+	border: 1px solid #00BFFF;
+}
+.title{
+	width: 650px;
+	height: 30px;
+}
+.title a{
+	display: block;
+	width: 650px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: relative;
+}
+
+.base_info{
+	width: 650px;
+	height: 80px;
+}
+
+.base_info a{
+	display: block;
+	width: 50px;
+	height: 50px;	
+	position: relative;
+	left: 20px;
+	top: 12px;	
+	float: left;
+}
+.base_info a img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.record_and_user_info{
+	width: 500px;
+	height: 80px;
+	float: left;
+	position: relative;
+	left: 30px;
+}
+.record_and_user_info span{
+	font-size: 14px;
+	position: relative;	
+	left: -60px;
+	top: 10px;
+}
+.record_and_user_info span a{
+	position: relative;
+	left: 90px;
+	top: 0px;
+	color: red;
+}
+.record_and_user_info span a:hover{
+	text-decoration: underline;
+}
+.knowledge_details{
+	width: 650px;
+	background-color: white;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #666;
+	padding: 20px 8px;
+	margin-bottom: 50px;
+}
+.comment_container{
+	width: 662px;
+	height: 400px;
+	background-color: white;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.comment_container .comment_area{
+	width: 662px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+	left: -50px;
+}

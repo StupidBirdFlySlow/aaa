@@ -1,0 +1,25 @@
+.content_sc{
+	width: 990px;
+	height: 780px;
+	background-color: white;
+	margin: 0px auto;
+}
+.recipes_info .sc_desc{
+	width: 232px;
+	height: 70px;
+	position: relative;
+	top: -5px;
+	overflow: hidden;
+}
+.recipes_info .sc_desc p{
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: normal !important;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	font-size: 14px;
+	color: #ADADAD;
+	padding-left: 10px;
+}
